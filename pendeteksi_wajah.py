@@ -1,5 +1,5 @@
 import cv2
- 
+
 img = cv2.imread('02.jpg')
 
 face = cv2.CascadeClassifier('face-detect.xml')
